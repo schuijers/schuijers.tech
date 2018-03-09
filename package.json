@@ -18,7 +18,7 @@
     "postcss-reporter": "^5.0.0"
   },
   "scripts": {
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "start": "parcel src/index.html"
   }
 }
