@@ -43,6 +43,21 @@
 }
 
 .intro__links li a {
+  align-items: center;
   color: rgba(255, 255, 255, 0.75);
-  padding: 1em 0.5em;
+  display: inline-flex;
+  margin: 1em;
+  transition: all 300ms ease;
+}
+
+.intro__links li a:hover {
+  color: #cc005f;
+}
+
+.intro__links li a svg {
+  display: inline;
+  fill: currentColor;
+  height: 2em;
+  margin-right: 0.5em;
+  width: 2em;
 }
