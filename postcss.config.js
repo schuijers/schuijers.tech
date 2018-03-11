@@ -1,8 +1,11 @@
 module.exports = {
   plugins: [
-    require("postcss-import")(),
-    require("autoprefixer"),
-    require("postcss-reporter")({
+    require('postcss-import')(),
+    require('rucksack-css')({
+      autoprefixer: true
+    }),
+    require('css-mqpacker')(),
+    require('postcss-reporter')({
       clearReportedMessages: true,
     }),
   ],
