@@ -1,6 +1,7 @@
 const GENERATE_FAV_ICONS = process.env.NODE_ENV === 'production';
 
 module.exports = {
+  lowerCaseAttributeNames: false,
   plugins: {
     'posthtml-favicons': {
       configuration: {
@@ -31,4 +32,5 @@ module.exports = {
       },
     },
   },
+  recognizeSelfClosing: true,
 };
