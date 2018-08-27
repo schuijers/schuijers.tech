@@ -16,7 +16,7 @@ Built with :heart: and:
 Linted with:
 
 - [ESLint](https://eslint.org/) - A fully pluggable tool for identifying and reporting on patterns in JavaScript;
-- [styleling](https://stylelint.io/) - A mighty, modern style linter;
+- [stylelint](https://stylelint.io/) - A mighty, modern style linter;
 
 Tested with:
 
